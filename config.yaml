@@ -43,7 +43,7 @@ monitors:
 
   - id: sovryn-app-blog
     name: The Sovryn Blog
-    url: 'https://www.sovryn.app/blog'
+    url: 'https://www.sovryn.app/blog/'
     method: GET
     expectStatus: 200
 
@@ -55,6 +55,6 @@ monitors:
 
   - id: backend-sovryn-app
     name: API service
-    url: 'https://backend.sovryn.app'
+    url: 'https://backend.sovryn.app/sov/current-price'
     method: GET
     expectStatus: 200
